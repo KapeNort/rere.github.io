@@ -1,0 +1,38 @@
+body, html {
+	padding:0;
+	margin:0;
+	background-color: #373737
+}
+
+.wrap {
+	box-sizing: border-box;
+	height: 100vh;
+	width: 100%;
+	background-image: url(klshn.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+
+.back {
+	box-sizing: border-box;
+	height: 100vh;
+	width: 100%;
+	/*background-color: rgba(200, 200, 200, 0.2);*/
+}
+
+.load {
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+}
+
+img {
+	position: relative;
+	top: 50%;
+	width: 100px;
+	vertical-align: middle;
+}
