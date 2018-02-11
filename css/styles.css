@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Orbitron;
+	line-height: 1.5;
+	
+}
+
+header {
+	background-color: gray;
+}
+
+
+.containermy {
+	width: 980px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.navbarbrand {
+	font-size: 50px;
+	/*padding: 5px;*/
+	color: white;
+}
+
+/* .navbar-brand:hover {
+	text-decoration: none;
+	list-style: none;
+} */

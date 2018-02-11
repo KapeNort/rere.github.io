@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: Orbitron, sans-serif;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+
+section {
+	margin:0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #383838;
+}
+
+.logo {
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 1;
+	padding: 25px;
+}
+
+header a {
+	text-decoration: none;
+	list-style: none;
+	font-size: 24px;
+	padding: 25px;
+}
+
+.about {
+	height: ;
+	background-image: url(../img/fone.png);
+
+}
+
+.ava {
+	display: block;
+	width: 50%;
+	text-align: center;
+}
+
+.ava img {
+	width: 320px;
+	margin: 30% auto;
+
+}
+
+.info {
+	display: block;
+	width: 50%;
+	position: relative;
+	top: -50px;
+}
+
+
+.info h1 {
+	margin: 10% auto;
+}
+
+.work {
+	background-color: #333355;
+}
+
+.hov {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.hov h1 {
+	padding: 15px;
+	font-size: 36px;
+}
+
+
+
+
+.contacts {
+	background-color: #777788;
+}
+
+footer {
+	background-color: #665555;
+	height: 100px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+	.syl {
+		display: none;
+	}
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		align-items: center;
+	}
+
+	.container {
+		height: auto;
+		/* margin: 0;
+		padding: 0; */
+	}
+	
+	.cont2 {
+		height: auto;
+		display: block;
+		width: 100%;
+/* 		margin: 0;
+padding: 0; */
+	}
+
+	.ava, .info {
+		padding-top: 5%;
+		margin: 0 auto;
+	/*	margin-bottom: 0;*/
+	}
+
+	.ava img {
+		height: 300px;
+	margin: 0 auto;}
+
+	.info h1 {
+	margin: 0;
+	padding-top: 3%;
+
+}
+
+}
+
+
+
